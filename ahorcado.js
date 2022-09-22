@@ -3,6 +3,9 @@ for (var i = 0; localStorage.getItem(i); i++){
   palabras[i] = localStorage.getItem(i);
 }
 
+for (var i = 0; (pal = localStorage.getItem(i)); i++){
+  console.log(pal);
+}
 var intentos = 0;
 var palabraSecreta = "";
 var num = palabras.length;
