@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Juego del ahorcado</title>
+</head>
+<body>
+    <h1>Desafio 2, juego del ahorcado</h1>
+    <div class="partida">
+        <canvas width="300" height="250"></canvas>
+        <div class="juego" id="juego"></div>
+        <div class="fallas" id="fallas">
+            <p>Letras equivocadas: </p>
+        </div>
+        <div class="botonIngresofila1Y2" name="botonesLetra">
+            <input type="button" value="Q" id="Q" class="botonLetra" onclick="ingresoLetra('Q')">
+            <input type="button" value="W" id="W" class="botonLetra" onclick="ingresoLetra('W')">
+            <input type="button" value="E" id="E" class="botonLetra" onclick="ingresoLetra('E')">
+            <input type="button" value="R" id="R" class="botonLetra" onclick="ingresoLetra('R')">
+            <input type="button" value="T" id="T" class="botonLetra" onclick="ingresoLetra('T')">
+            <input type="button" value="Y" id="Y" class="botonLetra" onclick="ingresoLetra('Y')">
+            <input type="button" value="U" id="U" class="botonLetra" onclick="ingresoLetra('U')">
+            <input type="button" value="I" id="I" class="botonLetra" onclick="ingresoLetra('I')">
+            <input type="button" value="O" id="O" class="botonLetra" onclick="ingresoLetra('O')">
+            <input type="button" value="P" id="P" class="botonLetra" onclick="ingresoLetra('P')">
+        </div>
+        <div class="botonIngresofila1Y2" name="botonesLetra">
+            <input type="button" value="A" id="A" class="botonLetra" onclick="ingresoLetra('A')">
+            <input type="button" value="S" id="S" class="botonLetra" onclick="ingresoLetra('S')">
+            <input type="button" value="D" id="D" class="botonLetra" onclick="ingresoLetra('D')">
+            <input type="button" value="F" id="F" class="botonLetra" onclick="ingresoLetra('F')">
+            <input type="button" value="G" id="G" class="botonLetra" onclick="ingresoLetra('G')">
+            <input type="button" value="H" id="H" class="botonLetra" onclick="ingresoLetra('H')">
+            <input type="button" value="J" id="J" class="botonLetra" onclick="ingresoLetra('J')">
+            <input type="button" value="K" id="K" class="botonLetra" onclick="ingresoLetra('K')">
+            <input type="button" value="L" id="L" class="botonLetra" onclick="ingresoLetra('L')">
+            <input type="button" value="Ñ" id="Ñ" class="botonLetra" onclick="ingresoLetra('Ñ')">
+        </div>
+        <div class="botonIngresofila3" name="botonesLetra">
+            <input type="button" value="Z" id="Z" class="botonLetra" onclick="ingresoLetra('Z')">
+            <input type="button" value="X" id="X" class="botonLetra" onclick="ingresoLetra('X')">
+            <input type="button" value="C" id="C" class="botonLetra" onclick="ingresoLetra('C')">
+            <input type="button" value="V" id="V" class="botonLetra" onclick="ingresoLetra('V')">
+            <input type="button" value="B" id="B" class="botonLetra" onclick="ingresoLetra('B')">
+            <input type="button" value="N" id="N" class="botonLetra" onclick="ingresoLetra('N')">
+            <input type="button" value="M" id="M" class="botonLetra" onclick="ingresoLetra('M')">
+        </div>
+        <input type="button" id="primero" class="botonPartida" value="Nuevo juego" onclick="location.href='juego.html'">
+        <input type="button" id="segundo" class="botonPartida" value="Regrezar" onclick="location.href='index.html'">
+    </div>
+    <script src="ahorcado.js" type="text/javascript"></script>
+</body>
+</html>

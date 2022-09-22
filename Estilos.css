@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    word-break: break-word;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+}
+.inicio{
+    width: 20%;
+    margin: 20% 25% 0 40%;
+}
+.inicio input{
+    width: 100%;
+    height: 3em;
+    margin: 5% 5% 0 5%;
+}
+.palabra{
+    width: 50%;
+    margin: 5% 0 0 25%;
+}
+.palabra #input{
+    width: 100%;
+    font-size: 1.5em;
+    padding: 0.3em;
+    margin-top: 10%;
+}
+.boton{
+    width: 45%;
+    height: 3em;
+    margin: 40% 0 0 2%;
+}
+.partida{
+    width: 70%;
+    margin: 0 15% 0 15%;
+}
+.botonIngresofila1Y2{
+    margin: 5px 10% 0 0;
+    text-align: center;
+}
+.botonIngresofila3{
+    margin: 5px 10% 0 0;
+    text-align: center;
+}
+.botonLetra{
+    font-size: 1.5em;
+    height: 1.5em;
+    width: 1.5em;
+}
+.botonPartida{
+    width: 30%;
+    height: 2.5em;
+    margin: 5% 0 0 10%;
+}
+canvas{
+    margin: 0 auto 0 30%;
+}
+.juego{
+    font-size: 2.5em;
+    text-align: center;
+    width: 80%;
+    margin-left: 5%;
+}
+.juego p{
+    margin-left: 2%;
+    display: inline;
+}
+.fallas{
+    margin: 0 15% 5px 0;
+    text-align: center;
+}
+.fallas p{
+    display: inline;
+    font-size: 1.5em;
+}
+#primero{
+    background: #0A3871;
+    border-radius: 24px;
+    color: aliceblue;
+    border: none;
+}
+#segundo{
+    background: aliceblue;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+@media screen and (max-width: 480px){
+    h2{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .inicio{
+        width: 50%;
+        margin: 50% 25% 0 25%;
+    }
+    .inicio input{
+        width: 100%;
+        height: 3em;
+        margin: 5% 5% 0 5%;
+    }
+    .palabra{
+        width: 70%;
+        margin: 5% 15% 0 15%;
+    }
+    .palabra #input{
+        width: 100%;
+        font-size: 1.5em;
+        padding: 0.3em;
+        margin: 20% 0 40% 0;
+    }
+    .boton{
+        width: 70%;
+        height: 3em;
+        margin: 5% 15% 0 15%;
+    }
+    .partida{
+        width: 100%;
+        margin: 0;
+    }
+    .botonIngresofila1Y2{
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    .botonIngresofila3{
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    .botonLetra{
+        font-size: 1.3em;
+        height: 1.5em;
+        width: 1.5em;
+        border-width: 1px;
+    }
+    .juego{
+        margin-left: 10%;
+    }
+    .fallas{
+        margin: 0 5% 5px 0;
+        text-align: center;
+    }
+    .botonPartida{
+        width: 70%;
+        height: 2.5em;
+        margin: 5% 0 0 15%;
+    }
+    canvas{
+        margin: 0 auto 0 10%;
+    }
+}
