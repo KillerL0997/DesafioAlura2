@@ -7,13 +7,7 @@ for (var i = 0; (pal = localStorage.getItem(i)); i++){
   console.log(pal);
 }
 var intentos = 0;
-var palabraSecreta = "";
-var num = palabras.length;
-var numeroRandom = parseInt(Math.random() * num);
-while (numeroRandom >= num) {
-  numeroRandom = parseInt(Math.random() * num);
-}
-palabraSecreta = palabras[numeroRandom];
+var palabraSecreta = palabras[parseInt(Math.random() * palabras.length)];
 
 var palabra = document.getElementById("juego");
 for (var i = 0; i < palabraSecreta.length; i++){
